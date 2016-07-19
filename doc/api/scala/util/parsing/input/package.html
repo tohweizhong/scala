@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>input - Scala Standard Library API (Scaladoc) 2.10.5 - scala.util.parsing.input</title>
+          <meta name="description" content="input - Scala Standard Library API Scaladoc 2.10.5 - scala.util.parsing.input" />
+          <meta name="keywords" content="input Scala Standard Library API Scaladoc 2.10.5 scala.util.parsing.input" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../index.html';
+            var hash = 'scala.util.parsing.input.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../package.html" class="extype" name="scala">scala</a>.<a href="../../package.html" class="extype" name="scala.util">util</a>.<a href="../package.html" class="extype" name="scala.util.parsing">parsing</a></p>
+        <h1>input</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">input</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="toggleContainer block diagram-container" id="content-diagram-container">
+                <span class="toggle diagram-link">Content Hierarchy</span>
+                <a href="http://docs.scala-lang.org/overviews/scaladoc/usage.html#diagrams" target="_blank" class="diagram-help">Learn more about scaladoc diagrams</a>
+                <div class="diagram" id="content-diagram"><svg class="package-diagram" id="graph319" viewBox="0.00 0.00 529.00 158.00" height="158pt" width="529pt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1 1) rotate(0) translate(4 154)" class="graph" id="graph1"><polygon points="-4,5 -4,-154 526,-154 526,5 -4,5" stroke="white" fill="white"></polygon><!-- node0 --><g class="node trait" id="graph319_0"><a xlink:title="scala.util.parsing.input.Position" xlink:href="Position.html#inheritance-diagram"><polygon points="152,-150 72,-150 72,-124 152,-124 152,-150" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../../../lib/trait_diagram.png" y="-145" x="82" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-134" x="104" text-anchor="start">Position</text></a></g><!-- node2 --><g class="node class" id="graph319_2"><a xlink:title="scala.util.parsing.input.OffsetPosition" xlink:href="OffsetPosition.html#inheritance-diagram"><polygon points="106.25,-88 -0.25,-88 -0.25,-62 106.25,-62 106.25,-88" stroke="#115f3b" fill="#0a955b"></polygon><image xlink:href="../../../../lib/class_diagram.png" y="-83" x="10" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72" x="32" text-anchor="start">OffsetPosition</text></a></g><!-- node0&#45;&gt;node2 --><g class="edge inheritance" id="graph319_0_2"><a xlink:title="OffsetPosition is a subtype of Position"><path d="M96.5541,-120.292C86.668,-110.239 74.0338,-97.3904 64.9218,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="95.3069,-121.52 100.06,-123.858 97.8025,-119.066 95.3069,-121.52" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node5 --><g class="node object" id="graph319_5"><a xlink:title="scala.util.parsing.input.NoPosition" xlink:href="NoPosition$.html#inheritance-diagram"><polygon points="217.25,-88 124.75,-88 124.75,-62 217.25,-62 217.25,-88" stroke="#102966" fill="#3556a7"></polygon><image xlink:href="../../../../lib/object_diagram.png" y="-83" x="135" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72" x="157" text-anchor="start">NoPosition</text></a></g><!-- node0&#45;&gt;node5 --><g class="edge inheritance" id="graph319_0_5"><a xlink:title="NoPosition is a subtype of Position"><path d="M127.446,-120.292C137.332,-110.239 149.966,-97.3904 159.078,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="126.197,-119.066 123.94,-123.858 128.693,-121.52 126.197,-119.066" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node1 --><g class="node class" id="graph319_1"><a xlink:title="scala.util.parsing.input.PagedSeqReader" xlink:href="PagedSeqReader.html#inheritance-diagram"><polygon points="358.5,-88 235.5,-88 235.5,-62 358.5,-62 358.5,-88" stroke="#115f3b" fill="#0a955b"></polygon><image xlink:href="../../../../lib/class_diagram.png" y="-83" x="245" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72" x="267" text-anchor="start">PagedSeqReader</text></a></g><!-- node7 --><g class="node class" id="graph319_7"><a xlink:title="scala.util.parsing.input.StreamReader" xlink:href="StreamReader.html#inheritance-diagram"><polygon points="351.25,-26 242.75,-26 242.75,-0 351.25,-0 351.25,-26" stroke="#115f3b" fill="#0a955b"></polygon><image xlink:href="../../../../lib/class_diagram.png" y="-21" x="253" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-10" x="275" text-anchor="start">StreamReader</text></a></g><!-- node1&#45;&gt;node7 --><g class="edge inheritance" id="graph319_1_7"><a xlink:title="StreamReader is a subtype of PagedSeqReader"><path d="M297,-56.6826C297,-46.8961 297,-34.9026 297,-26.1238" stroke="#d4d4d4" fill="none"></path><polygon points="295.25,-56.8581 297,-61.8581 298.75,-56.8581 295.25,-56.8581" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node3 --><g class="node class" id="graph319_3"><a xlink:title="scala.util.parsing.input.CharArrayReader" xlink:href="CharArrayReader.html#inheritance-diagram"><polygon points="510.25,-26 387.75,-26 387.75,-0 510.25,-0 510.25,-26" stroke="#115f3b" fill="#0a955b"></polygon><image xlink:href="../../../../lib/class_diagram.png" y="-21" x="398" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-10" x="420" text-anchor="start">CharArrayReader</text></a></g><!-- node4 --><g class="node class" id="graph319_4"><a xlink:title="scala.util.parsing.input.Reader" xlink:href="Reader.html#inheritance-diagram"><polygon points="417.25,-150 328.75,-150 328.75,-124 417.25,-124 417.25,-150" stroke="#115f3b" fill="#0a955b"></polygon><image xlink:href="../../../../lib/class_diagram.png" y="-145" x="339" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-134" x="361" text-anchor="start">Reader[T]</text></a></g><!-- node4&#45;&gt;node1 --><g class="edge inheritance" id="graph319_4_1"><a xlink:title="PagedSeqReader is a subtype of Reader[T]"><path d="M353.438,-120.556C340.655,-110.464 324.197,-97.4716 312.357,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="352.611,-122.133 357.62,-123.858 354.78,-119.386 352.611,-122.133" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node6 --><g class="node class" id="graph319_6"><a xlink:title="scala.util.parsing.input.CharSequenceReader" xlink:href="CharSequenceReader.html#inheritance-diagram"><polygon points="521,-88 377,-88 377,-62 521,-62 521,-88" stroke="#115f3b" fill="#0a955b"></polygon><image xlink:href="../../../../lib/class_diagram.png" y="-83" x="387" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72" x="409" text-anchor="start">CharSequenceReader</text></a></g><!-- node4&#45;&gt;node6 --><g class="edge inheritance" id="graph319_4_6"><a xlink:title="CharSequenceReader is a subtype of Reader[T]"><path d="M392.562,-120.556C405.345,-110.464 421.803,-97.4716 433.643,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="391.22,-119.386 388.38,-123.858 393.389,-122.133 391.22,-119.386" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node6&#45;&gt;node3 --><g class="edge inheritance" id="graph319_6_3"><a xlink:title="CharArrayReader is a subtype of CharSequenceReader"><path d="M449,-56.6826C449,-46.8961 449,-34.9026 449,-26.1238" stroke="#d4d4d4" fill="none"></path><polygon points="447.25,-56.8581 449,-61.8581 450.75,-56.8581 447.25,-56.8581" stroke="#d4d4d4" fill="none"></polygon></a></g></g></svg></div>
+              </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="scala.util.parsing.input.CharArrayReader" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CharArrayReaderextendsCharSequenceReader"></a>
+      <a id="CharArrayReader:CharArrayReader"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="CharArrayReader.html"><span class="name">CharArrayReader</span></a><span class="result"> extends <a href="CharSequenceReader.html" class="extype" name="scala.util.parsing.input.CharSequenceReader">CharSequenceReader</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">A character array reader reads a stream of characters (keeping track of their positions)
+from an array.</p>
+    </li><li name="scala.util.parsing.input.CharSequenceReader" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CharSequenceReaderextendsReader[Char]"></a>
+      <a id="CharSequenceReader:CharSequenceReader"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="CharSequenceReader.html"><span class="name">CharSequenceReader</span></a><span class="result"> extends <a href="Reader.html" class="extype" name="scala.util.parsing.input.Reader">Reader</a>[<a href="../../../Char.html" class="extype" name="scala.Char">Char</a>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">A character array reader reads a stream of characters (keeping track of their positions)
+from an array.</p>
+    </li><li name="scala.util.parsing.input.OffsetPosition" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="OffsetPositionextendsPositionwithProductwithSerializable"></a>
+      <a id="OffsetPosition:OffsetPosition"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="OffsetPosition.html"><span class="name">OffsetPosition</span></a><span class="params">(<span name="source">source: <span class="extype" name="java.lang.CharSequence">CharSequence</span></span>, <span name="offset">offset: <a href="../../../Int.html" class="extype" name="scala.Int">Int</a></span>)</span><span class="result"> extends <a href="Position.html" class="extype" name="scala.util.parsing.input.Position">Position</a> with <a href="../../../Product.html" class="extype" name="scala.Product">Product</a> with <a href="../../../Serializable.html" class="extype" name="scala.Serializable">Serializable</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt"><code>OffsetPosition</code> is a standard class for positions
+  represented as offsets into a source <code><code>document<i>.
+</i></code></code></p>
+    </li><li name="scala.util.parsing.input.PagedSeqReader" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PagedSeqReaderextendsReader[Char]"></a>
+      <a id="PagedSeqReader:PagedSeqReader"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PagedSeqReader.html"><span class="name">PagedSeqReader</span></a><span class="result"> extends <a href="Reader.html" class="extype" name="scala.util.parsing.input.Reader">Reader</a>[<a href="../../../Char.html" class="extype" name="scala.Char">Char</a>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">A character array reader reads a stream of characters (keeping track of their positions)
+from an array.</p>
+    </li><li name="scala.util.parsing.input.Position" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="PositionextendsAnyRef"></a>
+      <a id="Position:Position"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Position.html"><span class="name">Position</span></a><span class="result"> extends <a href="../../../AnyRef.html" class="extype" name="scala.AnyRef">AnyRef</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt"><code>Position</code> is the base trait for objects describing a position in a <code><code>document<i>.</i></code></code></p>
+    </li><li name="scala.util.parsing.input.Positional" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="PositionalextendsAnyRef"></a>
+      <a id="Positional:Positional"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Positional.html"><span class="name">Positional</span></a><span class="result"> extends <a href="../../../AnyRef.html" class="extype" name="scala.AnyRef">AnyRef</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">A trait for objects that have a source position.</p>
+    </li><li name="scala.util.parsing.input.Reader" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="Reader[+T]extendsAnyRef"></a>
+      <a id="Reader[+T]:Reader[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Reader.html"><span class="name">Reader</span></a><span class="tparams">[<span name="T">+T</span>]</span><span class="result"> extends <a href="../../../AnyRef.html" class="extype" name="scala.AnyRef">AnyRef</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">An interface for streams of values that have positions.</p>
+    </li><li name="scala.util.parsing.input.StreamReader" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StreamReaderextendsPagedSeqReader"></a>
+      <a id="StreamReader:StreamReader"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="StreamReader.html"><span class="name">StreamReader</span></a><span class="result"> extends <a href="PagedSeqReader.html" class="extype" name="scala.util.parsing.input.PagedSeqReader">PagedSeqReader</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">A StreamReader reads from a character sequence, typically created as a PagedSeq
+ from a java.</p>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="scala.util.parsing.input.CharArrayReader" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CharArrayReader"></a>
+      <a id="CharArrayReader:CharArrayReader"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="CharArrayReader$.html"><span class="name">CharArrayReader</span></a>
+      </span>
+      </h4>
+      <p class="comment cmt">An object encapsulating basic character constants.</p>
+    </li><li name="scala.util.parsing.input.CharSequenceReader" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CharSequenceReader"></a>
+      <a id="CharSequenceReader:CharSequenceReader"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="CharSequenceReader$.html"><span class="name">CharSequenceReader</span></a>
+      </span>
+      </h4>
+      <p class="comment cmt">An object encapsulating basic character constants.</p>
+    </li><li name="scala.util.parsing.input.NoPosition" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="NoPosition"></a>
+      <a id="NoPosition:NoPosition"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="NoPosition$.html"><span class="name">NoPosition</span></a><span class="result"> extends <a href="Position.html" class="extype" name="scala.util.parsing.input.Position">Position</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Undefined position.</p>
+    </li><li name="scala.util.parsing.input.PagedSeqReader" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PagedSeqReader"></a>
+      <a id="PagedSeqReader:PagedSeqReader"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="PagedSeqReader$.html"><span class="name">PagedSeqReader</span></a>
+      </span>
+      </h4>
+      <p class="comment cmt">An object encapsulating basic character constants.</p>
+    </li><li name="scala.util.parsing.input.StreamReader" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StreamReader"></a>
+      <a id="StreamReader:StreamReader"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="StreamReader$.html"><span class="name">StreamReader</span></a>
+      </span>
+      </h4>
+      <p class="comment cmt">An object to create a <code>StreamReader</code> from a <code>java.io.Reader</code>.</p>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">Scala programming documentation. Copyright (c) 2003-2013 <a href="http://www.epfl.ch" target="_top">EPFL</a>, with contributions from <a href="http://typesafe.com" target="_top">Typesafe</a>.</div>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../../../../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../../../../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../../../../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../../../../lib/template.js"></script><script defer="defer" type="text/javascript" id="modernizr-custom-js" src="../../../../lib/modernizr.custom.js"></script><script defer="defer" type="text/javascript" id="diagrams-js" src="../../../../lib/diagrams.js"></script>
+    </body>
+      </html>

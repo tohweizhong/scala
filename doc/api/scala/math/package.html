@@ -1,0 +1,1072 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>math - Scala Standard Library API (Scaladoc) 2.10.5 - scala.math</title>
+          <meta name="description" content="math - Scala Standard Library API Scaladoc 2.10.5 - scala.math" />
+          <meta name="keywords" content="math Scala Standard Library API Scaladoc 2.10.5 scala.math" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../index.html';
+            var hash = 'scala.math.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../lib/package_big.png" />
+        <p id="owner"><a href="../package.html" class="extype" name="scala">scala</a></p>
+        <h1>math</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">math</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>The package object <code>scala.math</code> contains methods for performing basic
+numeric operations such as elementary exponential, logarithmic, root and
+trigonometric functions.
+</p></div><dl class="attributes block"> <dt>Source</dt><dd><a href="https://github.com/scala/scala/tree/v2.10.5/src/library/scala/math/package.scala#L1" target="_blank">package.scala</a></dd></dl><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><a href="../AnyRef.html" class="extype" name="scala.AnyRef">AnyRef</a>, <a href="../Any.html" class="extype" name="scala.Any">Any</a></div>
+        </div><div class="toggleContainer block diagram-container" id="content-diagram-container">
+                <span class="toggle diagram-link">Content Hierarchy</span>
+                <a href="http://docs.scala-lang.org/overviews/scaladoc/usage.html#diagrams" target="_blank" class="diagram-help">Learn more about scaladoc diagrams</a>
+                <div class="diagram" id="content-diagram"><svg class="package-diagram" id="graph1075" viewBox="0.00 0.00 649.00 282.00" height="282pt" width="649pt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1 1) rotate(0) translate(4 278)" class="graph" id="graph1"><polygon points="-4,5 -4,-278 646,-278 646,5 -4,5" stroke="white" fill="white"></polygon><!-- node0 --><g class="node object" id="graph1075_0"><a xlink:title="scala.math.Equiv" xlink:href="Equiv$.html#inheritance-diagram"><polygon points="93.25,-212 24.75,-212 24.75,-186 93.25,-186 93.25,-212" stroke="#102966" fill="#3556a7"></polygon><image xlink:href="../../lib/object_diagram.png" y="-207" x="35" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-196" x="57" text-anchor="start">Equiv</text></a></g><!-- node1 --><g class="node trait" id="graph1075_1"><a xlink:title="scala.math.Equiv" xlink:href="Equiv.html#inheritance-diagram"><polygon points="217.25,-274 136.75,-274 136.75,-248 217.25,-248 217.25,-274" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-269" x="147" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-258" x="169" text-anchor="start">Equiv[T]</text></a></g><!-- node11 --><g class="node trait" id="graph1075_11"><a xlink:title="scala.math.PartialOrdering" xlink:href="PartialOrdering.html#inheritance-diagram"><polygon points="238.25,-212 115.75,-212 115.75,-186 238.25,-186 238.25,-212" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-207" x="126" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-196" x="148" text-anchor="start">PartialOrdering[T]</text></a></g><!-- node1&#45;&gt;node11 --><g class="edge inheritance" id="graph1075_1_11"><a xlink:title="PartialOrdering[T] is a subtype of Equiv[T]"><path d="M177,-242.683C177,-232.896 177,-220.903 177,-212.124" stroke="#d4d4d4" fill="none"></path><polygon points="175.25,-242.858 177,-247.858 178.75,-242.858 175.25,-242.858" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node2 --><g class="node trait" id="graph1075_2"><a xlink:title="scala.math.LowPriorityEquiv" xlink:href="LowPriorityEquiv.html#inheritance-diagram"><polygon points="118.25,-274 -0.25,-274 -0.25,-248 118.25,-248 118.25,-274" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-269" x="10" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-258" x="32" text-anchor="start">LowPriorityEquiv</text></a></g><!-- node2&#45;&gt;node0 --><g class="edge inheritance" id="graph1075_2_0"><a xlink:title="Equiv is a subtype of LowPriorityEquiv"><path d="M59,-242.683C59,-232.896 59,-220.903 59,-212.124" stroke="#d4d4d4" fill="none"></path><polygon points="57.2501,-242.858 59,-247.858 60.7501,-242.858 57.2501,-242.858" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node3 --><g class="node trait" id="graph1075_3"><a xlink:title="scala.math.ScalaNumericAnyConversions" xlink:href="ScalaNumericAnyConversions.html#inheritance-diagram"><polygon points="454.25,-274 275.75,-274 275.75,-248 454.25,-248 454.25,-274" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-269" x="286" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-258" x="308" text-anchor="start">ScalaNumericAnyConversions</text></a></g><!-- node4 --><g class="node trait" id="graph1075_4"><a xlink:title="scala.math.ScalaNumericConversions" xlink:href="ScalaNumericConversions.html#inheritance-diagram"><polygon points="446,-212 284,-212 284,-186 446,-186 446,-212" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-207" x="294" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-196" x="316" text-anchor="start">ScalaNumericConversions</text></a></g><!-- node3&#45;&gt;node4 --><g class="edge inheritance" id="graph1075_3_4"><a xlink:title="ScalaNumericConversions is a subtype of ScalaNumericAnyConversions"><path d="M365,-242.683C365,-232.896 365,-220.903 365,-212.124" stroke="#d4d4d4" fill="none"></path><polygon points="363.25,-242.858 365,-247.858 366.75,-242.858 363.25,-242.858" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node5 --><g class="node class" id="graph1075_5"><a xlink:title="scala.math.BigDecimal" xlink:href="BigDecimal.html#inheritance-diagram"><polygon points="337.25,-150 242.75,-150 242.75,-124 337.25,-124 337.25,-150" stroke="#115f3b" fill="#0a955b"></polygon><image xlink:href="../../lib/class_diagram.png" y="-145" x="253" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-134" x="275" text-anchor="start">BigDecimal</text></a></g><!-- node4&#45;&gt;node5 --><g class="edge inheritance" id="graph1075_4_5"><a xlink:title="BigDecimal is a subtype of ScalaNumericConversions"><path d="M345.695,-182.556C333.08,-172.464 316.84,-159.472 305.155,-150.124" stroke="#d4d4d4" fill="none"></path><polygon points="344.825,-184.101 349.823,-185.858 347.011,-181.368 344.825,-184.101" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node6 --><g class="node class" id="graph1075_6"><a xlink:title="scala.math.BigInt" xlink:href="BigInt.html#inheritance-diagram"><polygon points="426,-150 356,-150 356,-124 426,-124 426,-150" stroke="#115f3b" fill="#0a955b"></polygon><image xlink:href="../../lib/class_diagram.png" y="-145" x="366" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-134" x="388" text-anchor="start">BigInt</text></a></g><!-- node4&#45;&gt;node6 --><g class="edge inheritance" id="graph1075_4_6"><a xlink:title="BigInt is a subtype of ScalaNumericConversions"><path d="M372.27,-181.224C376.552,-171.341 381.872,-159.065 385.746,-150.124" stroke="#d4d4d4" fill="none"></path><polygon points="370.644,-180.574 370.261,-185.858 373.855,-181.966 370.644,-180.574" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node7 --><g class="node trait" id="graph1075_7"><a xlink:title="scala.math.Numeric" xlink:href="Numeric.html#inheritance-diagram"><polygon points="223.25,-88 130.75,-88 130.75,-62 223.25,-62 223.25,-88" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-83" x="141" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72" x="163" text-anchor="start">Numeric[T]</text></a></g><!-- node12 --><g class="node trait" id="graph1075_12"><a xlink:title="scala.math.Fractional" xlink:href="Fractional.html#inheritance-diagram"><polygon points="171,-26 71,-26 71,-0 171,-0 171,-26" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-21" x="81" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-10" x="103" text-anchor="start">Fractional[T]</text></a></g><!-- node7&#45;&gt;node12 --><g class="edge inheritance" id="graph1075_7_12"><a xlink:title="Fractional[T] is a subtype of Numeric[T]"><path d="M162.092,-58.0271C152.746,-48.0135 140.888,-35.3091 132.316,-26.1238" stroke="#d4d4d4" fill="none"></path><polygon points="160.977,-59.3969 165.668,-61.8581 163.535,-57.0087 160.977,-59.3969" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node13 --><g class="node trait" id="graph1075_13"><a xlink:title="scala.math.Integral" xlink:href="Integral.html#inheritance-diagram"><polygon points="278.25,-26 189.75,-26 189.75,-0 278.25,-0 278.25,-26" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-21" x="200" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-10" x="222" text-anchor="start">Integral[T]</text></a></g><!-- node7&#45;&gt;node13 --><g class="edge inheritance" id="graph1075_7_13"><a xlink:title="Integral[T] is a subtype of Numeric[T]"><path d="M192.174,-58.0271C201.687,-48.0135 213.756,-35.3091 222.482,-26.1238" stroke="#d4d4d4" fill="none"></path><polygon points="190.71,-57.0278 188.535,-61.8581 193.247,-59.4384 190.71,-57.0278" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node8 --><g class="node trait" id="graph1075_8"><a xlink:title="scala.math.LowPriorityOrderingImplicits" xlink:href="LowPriorityOrderingImplicits.html#inheritance-diagram"><polygon points="641.25,-274 472.75,-274 472.75,-248 641.25,-248 641.25,-274" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-269" x="483" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-258" x="505" text-anchor="start">LowPriorityOrderingImplicits</text></a></g><!-- node9 --><g class="node object" id="graph1075_9"><a xlink:title="scala.math.Ordering" xlink:href="Ordering$.html#inheritance-diagram"><polygon points="598.25,-212 515.75,-212 515.75,-186 598.25,-186 598.25,-212" stroke="#102966" fill="#3556a7"></polygon><image xlink:href="../../lib/object_diagram.png" y="-207" x="526" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-196" x="548" text-anchor="start">Ordering</text></a></g><!-- node8&#45;&gt;node9 --><g class="edge inheritance" id="graph1075_8_9"><a xlink:title="Ordering is a subtype of LowPriorityOrderingImplicits"><path d="M557,-242.683C557,-232.896 557,-220.903 557,-212.124" stroke="#d4d4d4" fill="none"></path><polygon points="555.25,-242.858 557,-247.858 558.75,-242.858 555.25,-242.858" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node10 --><g class="node trait" id="graph1075_10"><a xlink:title="scala.math.Ordering" xlink:href="Ordering.html#inheritance-diagram"><polygon points="224.25,-150 129.75,-150 129.75,-124 224.25,-124 224.25,-150" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-145" x="140" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-134" x="162" text-anchor="start">Ordering[T]</text></a></g><!-- node10&#45;&gt;node7 --><g class="edge inheritance" id="graph1075_10_7"><a xlink:title="Numeric[T] is a subtype of Ordering[T]"><path d="M177,-118.683C177,-108.896 177,-96.9026 177,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="175.25,-118.858 177,-123.858 178.75,-118.858 175.25,-118.858" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node11&#45;&gt;node10 --><g class="edge inheritance" id="graph1075_11_10"><a xlink:title="Ordering[T] is a subtype of PartialOrdering[T]"><path d="M177,-180.683C177,-170.896 177,-158.903 177,-150.124" stroke="#d4d4d4" fill="none"></path><polygon points="175.25,-180.858 177,-185.858 178.75,-180.858 175.25,-180.858" stroke="#d4d4d4" fill="none"></polygon></a></g></g></svg></div>
+              </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol>
+                
+                <li class="alpha in"><span>Alphabetic</span></li>
+                <li class="inherit out"><span>By inheritance</span></li>
+              </ol>
+            </div>
+        <div id="ancestors">
+                <span class="filtertype">Inherited<br />
+                </span>
+                <ol id="linearization">
+                  <li class="in" name="scala.math"><span>math</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                </ol>
+              </div><div id="ancestors">
+            <span class="filtertype"></span>
+            <ol>
+              <li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show all</span></li>
+            </ol>
+            <a href="http://docs.scala-lang.org/overviews/scaladoc/usage.html#members" target="_blank">Learn more about member selection</a>
+          </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="scala.math.BigDecimal" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BigDecimalextendsScalaNumberwithScalaNumericConversionswithSerializable"></a>
+      <a id="BigDecimal:BigDecimal"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="BigDecimal.html"><span class="name">BigDecimal</span></a><span class="result"> extends <span class="extype" name="scala.math.ScalaNumber">ScalaNumber</span> with <a href="ScalaNumericConversions.html" class="extype" name="scala.math.ScalaNumericConversions">ScalaNumericConversions</a> with <a href="../Serializable.html" class="extype" name="scala.Serializable">Serializable</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt"></p>
+    </li><li name="scala.math.BigInt" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BigIntextendsScalaNumberwithScalaNumericConversionswithSerializable"></a>
+      <a id="BigInt:BigInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="BigInt.html"><span class="name">BigInt</span></a><span class="result"> extends <span class="extype" name="scala.math.ScalaNumber">ScalaNumber</span> with <a href="ScalaNumericConversions.html" class="extype" name="scala.math.ScalaNumericConversions">ScalaNumericConversions</a> with <a href="../Serializable.html" class="extype" name="scala.Serializable">Serializable</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt"></p>
+    </li><li name="scala.math.Equiv" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="Equiv[T]extendsAnywithSerializable"></a>
+      <a id="Equiv[T]:Equiv[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Equiv.html"><span class="name">Equiv</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <a href="../Serializable.html" class="extype" name="scala.Serializable">Serializable</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">A trait for representing equivalence relations.</p>
+    </li><li name="scala.math.Fractional" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="Fractional[T]extendsNumeric[T]"></a>
+      <a id="Fractional[T]:Fractional[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Fractional.html"><span class="name">Fractional</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <a href="Numeric.html" class="extype" name="scala.math.Numeric">Numeric</a>[<span class="extype" name="scala.math.Fractional.T">T</span>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt"></p>
+    </li><li name="scala.math.Integral" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="Integral[T]extendsNumeric[T]"></a>
+      <a id="Integral[T]:Integral[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Integral.html"><span class="name">Integral</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <a href="Numeric.html" class="extype" name="scala.math.Numeric">Numeric</a>[<span class="extype" name="scala.math.Integral.T">T</span>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt"></p>
+    </li><li name="scala.math.LowPriorityEquiv" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="LowPriorityEquivextendsAnyRef"></a>
+      <a id="LowPriorityEquiv:LowPriorityEquiv"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="LowPriorityEquiv.html"><span class="name">LowPriorityEquiv</span></a><span class="result"> extends <a href="../AnyRef.html" class="extype" name="scala.AnyRef">AnyRef</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.LowPriorityOrderingImplicits" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="LowPriorityOrderingImplicitsextendsAnyRef"></a>
+      <a id="LowPriorityOrderingImplicits:LowPriorityOrderingImplicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="LowPriorityOrderingImplicits.html"><span class="name">LowPriorityOrderingImplicits</span></a><span class="result"> extends <a href="../AnyRef.html" class="extype" name="scala.AnyRef">AnyRef</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="Numeric[T]extendsOrdering[T]"></a>
+      <a id="Numeric[T]:Numeric[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric.html"><span class="name">Numeric</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <a href="Ordering.html" class="extype" name="scala.math.Ordering">Ordering</a>[<span class="extype" name="scala.math.Numeric.T">T</span>]</span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Ordered" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="Ordered[A]extendsAnywithComparable[A]"></a>
+      <a id="Ordered[A]:Ordered[A]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Ordered.html"><span class="name">Ordered</span></a><span class="tparams">[<span name="A">A</span>]</span><span class="result"> extends <span class="extype" name="java.lang.Comparable">Comparable</span>[<span class="extype" name="scala.math.Ordered.A">A</span>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">A trait for data that have a single, natural ordering.</p>
+    </li><li name="scala.math.Ordering" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="Ordering[T]extendsComparator[T]withPartialOrdering[T]withSerializable"></a>
+      <a id="Ordering[T]:Ordering[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Ordering.html"><span class="name">Ordering</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <span class="extype" name="java.util.Comparator">Comparator</span>[<span class="extype" name="scala.math.Ordering.T">T</span>] with <a href="PartialOrdering.html" class="extype" name="scala.math.PartialOrdering">PartialOrdering</a>[<span class="extype" name="scala.math.Ordering.T">T</span>] with <a href="../Serializable.html" class="extype" name="scala.Serializable">Serializable</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Ordering is a trait whose instances each represent a strategy for sorting
+instances of a type.</p>
+    </li><li name="scala.math.PartialOrdering" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="PartialOrdering[T]extendsEquiv[T]"></a>
+      <a id="PartialOrdering[T]:PartialOrdering[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="PartialOrdering.html"><span class="name">PartialOrdering</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <a href="Equiv.html" class="extype" name="scala.math.Equiv">Equiv</a>[<span class="extype" name="scala.math.PartialOrdering.T">T</span>]</span>
+      </span>
+      </h4>
+      <p class="comment cmt">A trait for representing partial orderings.</p>
+    </li><li name="scala.math.PartiallyOrdered" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="PartiallyOrdered[+A]extendsAnyRef"></a>
+      <a id="PartiallyOrdered[+A]:PartiallyOrdered[A]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="PartiallyOrdered.html"><span class="name">PartiallyOrdered</span></a><span class="tparams">[<span name="A">+A</span>]</span><span class="result"> extends <a href="../AnyRef.html" class="extype" name="scala.AnyRef">AnyRef</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">A class for partially ordered data.</p>
+    </li><li name="scala.math.ScalaNumericAnyConversions" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="ScalaNumericAnyConversionsextendsAny"></a>
+      <a id="ScalaNumericAnyConversions:ScalaNumericAnyConversions"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="ScalaNumericAnyConversions.html"><span class="name">ScalaNumericAnyConversions</span></a><span class="result"> extends <a href="../Any.html" class="extype" name="scala.Any">Any</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Conversions which present a consistent conversion interface
+ across all the numeric types, suitable for use in value classes.</p>
+    </li><li name="scala.math.ScalaNumericConversions" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="ScalaNumericConversionsextendsScalaNumberwithScalaNumericAnyConversions"></a>
+      <a id="ScalaNumericConversions:ScalaNumericConversions"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="ScalaNumericConversions.html"><span class="name">ScalaNumericConversions</span></a><span class="result"> extends <span class="extype" name="scala.math.ScalaNumber">ScalaNumber</span> with <a href="ScalaNumericAnyConversions.html" class="extype" name="scala.math.ScalaNumericAnyConversions">ScalaNumericAnyConversions</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">A slightly more specific conversion trait for classes which
+ extend ScalaNumber (which excludes value classes.</p>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="scala.math.BigDecimal" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BigDecimal"></a>
+      <a id="BigDecimal:BigDecimal"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="BigDecimal$.html"><span class="name">BigDecimal</span></a><span class="result"> extends <a href="../Serializable.html" class="extype" name="scala.Serializable">Serializable</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt"></p>
+    </li><li name="scala.math.BigInt" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BigInt"></a>
+      <a id="BigInt:BigInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="BigInt$.html"><span class="name">BigInt</span></a><span class="result"> extends <a href="../Serializable.html" class="extype" name="scala.Serializable">Serializable</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt"></p>
+    </li><li name="scala.math.package#E" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="E:Double"></a>
+      <a id="E:Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">E</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">The <code>double</code> value that is closer than any other to <code>e</code>, the base of
+ the natural logarithms.</p>
+    </li><li name="scala.math.Equiv" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Equiv"></a>
+      <a id="Equiv:Equiv"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Equiv$.html"><span class="name">Equiv</span></a><span class="result"> extends <a href="LowPriorityEquiv.html" class="extype" name="scala.math.LowPriorityEquiv">LowPriorityEquiv</a> with <a href="../Serializable.html" class="extype" name="scala.Serializable">Serializable</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Fractional" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Fractional"></a>
+      <a id="Fractional:Fractional"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Fractional$.html"><span class="name">Fractional</span></a><span class="result"> extends <a href="../Serializable.html" class="extype" name="scala.Serializable">Serializable</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#IEEEremainder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="IEEEremainder(x:Double,y:Double):Double"></a>
+      <a id="IEEEremainder(Double,Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">IEEEremainder</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>, <span name="y">y: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Integral" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Integral"></a>
+      <a id="Integral:Integral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Integral$.html"><span class="name">Integral</span></a><span class="result"> extends <a href="../Serializable.html" class="extype" name="scala.Serializable">Serializable</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Numeric"></a>
+      <a id="Numeric:Numeric"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$.html"><span class="name">Numeric</span></a><span class="result"> extends <a href="../Serializable.html" class="extype" name="scala.Serializable">Serializable</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt"></p>
+    </li><li name="scala.math.Ordered" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Ordered"></a>
+      <a id="Ordered:Ordered"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Ordered$.html"><span class="name">Ordered</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Ordering" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Ordering"></a>
+      <a id="Ordering:Ordering"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Ordering$.html"><span class="name">Ordering</span></a><span class="result"> extends <a href="LowPriorityOrderingImplicits.html" class="extype" name="scala.math.LowPriorityOrderingImplicits">LowPriorityOrderingImplicits</a> with <a href="../Serializable.html" class="extype" name="scala.Serializable">Serializable</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">This is the companion object for the <a href="Ordering.html" class="extype" name="scala.math.Ordering">scala.math.Ordering</a> trait.</p>
+    </li><li name="scala.math.package#Pi" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Pi:Double"></a>
+      <a id="Pi:Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Pi</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">The <code>double</code> value that is closer than any other to <code>pi</code>, the ratio of
+ the circumference of a circle to its diameter.</p>
+    </li><li name="scala.math.package#abs" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="abs(x:Double):Double"></a>
+      <a id="abs(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">abs</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#abs" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="abs(x:Float):Float"></a>
+      <a id="abs(Float):Float"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">abs</span><span class="params">(<span name="x">x: <a href="../Float.html" class="extype" name="scala.Float">Float</a></span>)</span><span class="result">: <a href="../Float.html" class="extype" name="scala.Float">Float</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#abs" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="abs(x:Long):Long"></a>
+      <a id="abs(Long):Long"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">abs</span><span class="params">(<span name="x">x: <a href="../Long.html" class="extype" name="scala.Long">Long</a></span>)</span><span class="result">: <a href="../Long.html" class="extype" name="scala.Long">Long</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#abs" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="abs(x:Int):Int"></a>
+      <a id="abs(Int):Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">abs</span><span class="params">(<span name="x">x: <a href="../Int.html" class="extype" name="scala.Int">Int</a></span>)</span><span class="result">: <a href="../Int.html" class="extype" name="scala.Int">Int</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#acos" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="acos(x:Double):Double"></a>
+      <a id="acos(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">acos</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#asin" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="asin(x:Double):Double"></a>
+      <a id="asin(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">asin</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#atan" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="atan(x:Double):Double"></a>
+      <a id="atan(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">atan</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#atan2" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="atan2(y:Double,x:Double):Double"></a>
+      <a id="atan2(Double,Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">atan2</span><span class="params">(<span name="y">y: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>, <span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Converts rectangular coordinates <code>(x, y)</code> to polar <code>(r, theta)</code>.</p><div class="fullcomment"><div class="comment cmt"><p>Converts rectangular coordinates <code>(x, y)</code> to polar <code>(r, theta)</code>.
+</p></div><dl class="paramcmts block"><dt class="param">y</dt><dd class="cmt"><p>the abscissa coordinate</p></dd><dt class="param">x</dt><dd class="cmt"><p>the ordinate coordinate</p></dd><dt>returns</dt><dd class="cmt"><p>the <i>theta</i> component of the point <code>(r, theta)</code> in polar
+         coordinates that corresponds to the point <code>(x, y)</code> in
+         Cartesian coordinates.
+</p></dd></dl></div>
+    </li><li name="scala.math.package#cbrt" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="cbrt(x:Double):Double"></a>
+      <a id="cbrt(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">cbrt</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Returns the cube root of the given <code>Double</code> value.</p>
+    </li><li name="scala.math.package#ceil" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ceil(x:Double):Double"></a>
+      <a id="ceil(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ceil</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#cos" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="cos(x:Double):Double"></a>
+      <a id="cos(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">cos</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#cosh" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="cosh(x:Double):Double"></a>
+      <a id="cosh(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">cosh</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Returns the hyperbolic cosine of the given <code>Double</code> value.</p>
+    </li><li name="scala.math.package#exp" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="exp(x:Double):Double"></a>
+      <a id="exp(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">exp</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Returns Euler's number <code>e</code> raised to the power of a <code>double</code> value.</p><div class="fullcomment"><div class="comment cmt"><p>Returns Euler's number <code>e</code> raised to the power of a <code>double</code> value.
+</p></div><dl class="paramcmts block"><dt class="param">x</dt><dd class="cmt"><p>the exponent to raise <code>e</code> to.</p></dd><dt>returns</dt><dd class="cmt"><p>the value <code>e<sup>a</sup></code>, where <code>e</code> is the base of the natural
+         logarithms.
+</p></dd></dl></div>
+    </li><li name="scala.math.package#expm1" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="expm1(x:Double):Double"></a>
+      <a id="expm1(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">expm1</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Returns <code>exp(x) - 1</code>.</p>
+    </li><li name="scala.math.package#floor" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="floor(x:Double):Double"></a>
+      <a id="floor(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">floor</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#hypot" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="hypot(x:Double,y:Double):Double"></a>
+      <a id="hypot(Double,Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hypot</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>, <span name="y">y: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Returns the square root of the sum of the squares of both given <code>Double</code>
+values without intermediate underflow or overflow.</p>
+    </li><li name="scala.math.package#log" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="log(x:Double):Double"></a>
+      <a id="log(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">log</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#log10" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="log10(x:Double):Double"></a>
+      <a id="log10(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">log10</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Returns the base 10 logarithm of the given <code>Double</code> value.</p>
+    </li><li name="scala.math.package#log1p" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="log1p(x:Double):Double"></a>
+      <a id="log1p(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">log1p</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Returns the natural logarithm of the sum of the given <code>Double</code> value and 1.</p>
+    </li><li name="scala.math.package#max" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="max(x:Double,y:Double):Double"></a>
+      <a id="max(Double,Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">max</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>, <span name="y">y: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#max" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="max(x:Float,y:Float):Float"></a>
+      <a id="max(Float,Float):Float"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">max</span><span class="params">(<span name="x">x: <a href="../Float.html" class="extype" name="scala.Float">Float</a></span>, <span name="y">y: <a href="../Float.html" class="extype" name="scala.Float">Float</a></span>)</span><span class="result">: <a href="../Float.html" class="extype" name="scala.Float">Float</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#max" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="max(x:Long,y:Long):Long"></a>
+      <a id="max(Long,Long):Long"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">max</span><span class="params">(<span name="x">x: <a href="../Long.html" class="extype" name="scala.Long">Long</a></span>, <span name="y">y: <a href="../Long.html" class="extype" name="scala.Long">Long</a></span>)</span><span class="result">: <a href="../Long.html" class="extype" name="scala.Long">Long</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#max" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="max(x:Int,y:Int):Int"></a>
+      <a id="max(Int,Int):Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">max</span><span class="params">(<span name="x">x: <a href="../Int.html" class="extype" name="scala.Int">Int</a></span>, <span name="y">y: <a href="../Int.html" class="extype" name="scala.Int">Int</a></span>)</span><span class="result">: <a href="../Int.html" class="extype" name="scala.Int">Int</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#min" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="min(x:Double,y:Double):Double"></a>
+      <a id="min(Double,Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">min</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>, <span name="y">y: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#min" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="min(x:Float,y:Float):Float"></a>
+      <a id="min(Float,Float):Float"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">min</span><span class="params">(<span name="x">x: <a href="../Float.html" class="extype" name="scala.Float">Float</a></span>, <span name="y">y: <a href="../Float.html" class="extype" name="scala.Float">Float</a></span>)</span><span class="result">: <a href="../Float.html" class="extype" name="scala.Float">Float</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#min" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="min(x:Long,y:Long):Long"></a>
+      <a id="min(Long,Long):Long"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">min</span><span class="params">(<span name="x">x: <a href="../Long.html" class="extype" name="scala.Long">Long</a></span>, <span name="y">y: <a href="../Long.html" class="extype" name="scala.Long">Long</a></span>)</span><span class="result">: <a href="../Long.html" class="extype" name="scala.Long">Long</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#min" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="min(x:Int,y:Int):Int"></a>
+      <a id="min(Int,Int):Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">min</span><span class="params">(<span name="x">x: <a href="../Int.html" class="extype" name="scala.Int">Int</a></span>, <span name="y">y: <a href="../Int.html" class="extype" name="scala.Int">Int</a></span>)</span><span class="result">: <a href="../Int.html" class="extype" name="scala.Int">Int</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#pow" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="pow(x:Double,y:Double):Double"></a>
+      <a id="pow(Double,Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">pow</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>, <span name="y">y: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Returns the value of the first argument raised to the power of the
+ second argument.</p><div class="fullcomment"><div class="comment cmt"><p>Returns the value of the first argument raised to the power of the
+ second argument.
+</p></div><dl class="paramcmts block"><dt class="param">x</dt><dd class="cmt"><p>the base.</p></dd><dt class="param">y</dt><dd class="cmt"><p>the exponent.</p></dd><dt>returns</dt><dd class="cmt"><p>the value <code>x<sup>y</sup></code>.
+</p></dd></dl></div>
+    </li><li name="scala.math.package#random" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="random:Double"></a>
+      <a id="random:Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">random</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Returns a <code>double</code> value with a positive sign, greater than or equal
+ to <code>0.0</code> and less than <code>1.0</code>.</p>
+    </li><li name="scala.math.package#rint" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="rint(x:Double):Double"></a>
+      <a id="rint(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">rint</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Returns the <code>double</code> value that is closest in value to the
+ argument and is equal to a mathematical integer.</p><div class="fullcomment"><div class="comment cmt"><p>Returns the <code>double</code> value that is closest in value to the
+ argument and is equal to a mathematical integer.
+</p></div><dl class="paramcmts block"><dt class="param">x</dt><dd class="cmt"><p>a <code>double</code> value</p></dd><dt>returns</dt><dd class="cmt"><p>the closest floating-point value to a that is equal to a
+         mathematical integer.
+</p></dd></dl></div>
+    </li><li name="scala.math.package#round" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="round(x:Double):Long"></a>
+      <a id="round(Double):Long"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">round</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Long.html" class="extype" name="scala.Long">Long</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#round" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="round(x:Float):Int"></a>
+      <a id="round(Float):Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">round</span><span class="params">(<span name="x">x: <a href="../Float.html" class="extype" name="scala.Float">Float</a></span>)</span><span class="result">: <a href="../Int.html" class="extype" name="scala.Int">Int</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Returns the closest <code>long</code> to the argument.</p><div class="fullcomment"><div class="comment cmt"><p>Returns the closest <code>long</code> to the argument.
+</p></div><dl class="paramcmts block"><dt class="param">x</dt><dd class="cmt"><p>a floating-point value to be rounded to a <code>long</code>.</p></dd><dt>returns</dt><dd class="cmt"><p>the value of the argument rounded to the nearest<code>long</code> value.
+</p></dd></dl></div>
+    </li><li name="scala.math.package#signum" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="signum(x:Double):Double"></a>
+      <a id="signum(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">signum</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#signum" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="signum(x:Float):Float"></a>
+      <a id="signum(Float):Float"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">signum</span><span class="params">(<span name="x">x: <a href="../Float.html" class="extype" name="scala.Float">Float</a></span>)</span><span class="result">: <a href="../Float.html" class="extype" name="scala.Float">Float</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#signum" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="signum(x:Long):Long"></a>
+      <a id="signum(Long):Long"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">signum</span><span class="params">(<span name="x">x: <a href="../Long.html" class="extype" name="scala.Long">Long</a></span>)</span><span class="result">: <a href="../Long.html" class="extype" name="scala.Long">Long</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#signum" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="signum(x:Int):Int"></a>
+      <a id="signum(Int):Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">signum</span><span class="params">(<span name="x">x: <a href="../Int.html" class="extype" name="scala.Int">Int</a></span>)</span><span class="result">: <a href="../Int.html" class="extype" name="scala.Int">Int</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#sin" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="sin(x:Double):Double"></a>
+      <a id="sin(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">sin</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#sinh" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="sinh(x:Double):Double"></a>
+      <a id="sinh(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">sinh</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Returns the hyperbolic sine of the given <code>Double</code> value.</p>
+    </li><li name="scala.math.package#sqrt" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="sqrt(x:Double):Double"></a>
+      <a id="sqrt(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">sqrt</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#tan" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="tan(x:Double):Double"></a>
+      <a id="tan(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">tan</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.package#tanh" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="tanh(x:Double):Double"></a>
+      <a id="tanh(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">tanh</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Returns the hyperbolic tangent of the given <code>Double</code> value.</p>
+    </li><li name="scala.math.package#toDegrees" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toDegrees(x:Double):Double"></a>
+      <a id="toDegrees(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toDegrees</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Converts an angle measured in radians to an approximately equivalent
+ angle measured in degrees.</p><div class="fullcomment"><div class="comment cmt"><p>Converts an angle measured in radians to an approximately equivalent
+ angle measured in degrees.
+</p></div><dl class="paramcmts block"><dt class="param">x</dt><dd class="cmt"><p>angle, in radians</p></dd><dt>returns</dt><dd class="cmt"><p>the measurement of the angle <code>x</code> in degrees.
+</p></dd></dl></div>
+    </li><li name="scala.math.package#toRadians" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toRadians(x:Double):Double"></a>
+      <a id="toRadians(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toRadians</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Converts an angle measured in degrees to an approximately equivalent
+ angle measured in radians.</p><div class="fullcomment"><div class="comment cmt"><p>Converts an angle measured in degrees to an approximately equivalent
+ angle measured in radians.
+</p></div><dl class="paramcmts block"><dt class="param">x</dt><dd class="cmt"><p>an angle, in degrees</p></dd><dt>returns</dt><dd class="cmt"><p>the measurement of the angle <code>x</code> in radians.
+</p></dd></dl></div>
+    </li><li name="scala.math.package#ulp" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ulp(x:Float):Float"></a>
+      <a id="ulp(Float):Float"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ulp</span><span class="params">(<span name="x">x: <a href="../Float.html" class="extype" name="scala.Float">Float</a></span>)</span><span class="result">: <a href="../Float.html" class="extype" name="scala.Float">Float</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Returns the size of an ulp of the given <code>Float</code> value.</p>
+    </li><li name="scala.math.package#ulp" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ulp(x:Double):Double"></a>
+      <a id="ulp(Double):Double"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ulp</span><span class="params">(<span name="x">x: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>)</span><span class="result">: <a href="../Double.html" class="extype" name="scala.Double">Double</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Returns the size of an ulp of the given <code>Double</code> value.</p>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <a href="../AnyRef.html" class="extype" name="scala.AnyRef">AnyRef</a></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <a href="../Any.html" class="extype" name="scala.Any">Any</a></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">Scala programming documentation. Copyright (c) 2003-2013 <a href="http://www.epfl.ch" target="_top">EPFL</a>, with contributions from <a href="http://typesafe.com" target="_top">Typesafe</a>.</div>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../../lib/template.js"></script><script defer="defer" type="text/javascript" id="modernizr-custom-js" src="../../lib/modernizr.custom.js"></script><script defer="defer" type="text/javascript" id="diagrams-js" src="../../lib/diagrams.js"></script>
+    </body>
+      </html>

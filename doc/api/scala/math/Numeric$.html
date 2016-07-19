@@ -1,0 +1,867 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>Numeric - Scala Standard Library API (Scaladoc) 2.10.5 - scala.math.Numeric</title>
+          <meta name="description" content="Numeric - Scala Standard Library API Scaladoc 2.10.5 - scala.math.Numeric" />
+          <meta name="keywords" content="Numeric Scala Standard Library API Scaladoc 2.10.5 scala.math.Numeric" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../index.html';
+            var hash = 'scala.math.Numeric$';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <a href="Numeric.html" title="Go to companion"><img src="../../lib/object_to_trait_big.png" /></a>
+        <p id="owner"><a href="../package.html" class="extype" name="scala">scala</a>.<a href="package.html" class="extype" name="scala.math">math</a></p>
+        <h1><a href="Numeric.html" title="Go to companion">Numeric</a></h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Numeric</span><span class="result"> extends <a href="../Serializable.html" class="extype" name="scala.Serializable">Serializable</a></span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"></div><dl class="attributes block"> <dt>Source</dt><dd><a href="https://github.com/scala/scala/tree/v2.10.5/src/library/scala/math/Numeric.scala#L1" target="_blank">Numeric.scala</a></dd><dt>Since</dt><dd><p>2.8
+</p></dd></dl><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><a href="../Serializable.html" class="extype" name="scala.Serializable">Serializable</a>, <span class="extype" name="java.io.Serializable">java.io.Serializable</span>, <a href="../AnyRef.html" class="extype" name="scala.AnyRef">AnyRef</a>, <a href="../Any.html" class="extype" name="scala.Any">Any</a></div>
+        </div><div class="toggleContainer block diagram-container" id="content-diagram-container">
+                <span class="toggle diagram-link">Content Hierarchy</span>
+                <a href="http://docs.scala-lang.org/overviews/scaladoc/usage.html#diagrams" target="_blank" class="diagram-help">Learn more about scaladoc diagrams</a>
+                <div class="diagram" id="content-diagram"><svg class="package-diagram" id="graph1084" viewBox="0.00 0.00 1749.00 158.00" height="158pt" width="1749pt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1 1) rotate(0) translate(4 154)" class="graph" id="graph1"><polygon points="-4,5 -4,-154 1746,-154 1746,5 -4,5" stroke="white" fill="white"></polygon><!-- node0 --><g class="node object" id="graph1084_0"><a xlink:title="scala.math.Numeric.DoubleAsIfIntegral" xlink:href="Numeric$$DoubleAsIfIntegral$.html#inheritance-diagram"><polygon points="126.25,-26 -0.25,-26 -0.25,-0 126.25,-0 126.25,-26" stroke="#102966" fill="#3556a7"></polygon><image xlink:href="../../lib/object_diagram.png" y="-21" x="10" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-10" x="32" text-anchor="start">DoubleAsIfIntegral</text></a></g><!-- node1 --><g class="node object" id="graph1084_1"><a xlink:title="scala.math.Numeric.DoubleIsFractional" xlink:href="Numeric$$DoubleIsFractional$.html#inheritance-diagram"><polygon points="273,-26 145,-26 145,-0 273,-0 273,-26" stroke="#102966" fill="#3556a7"></polygon><image xlink:href="../../lib/object_diagram.png" y="-21" x="155" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-10" x="177" text-anchor="start">DoubleIsFractional</text></a></g><!-- node2 --><g class="node object" id="graph1084_2"><a xlink:title="scala.math.Numeric.BigDecimalAsIfIntegral" xlink:href="Numeric$$BigDecimalAsIfIntegral$.html#inheritance-diagram"><polygon points="436.25,-26 291.75,-26 291.75,-0 436.25,-0 436.25,-26" stroke="#102966" fill="#3556a7"></polygon><image xlink:href="../../lib/object_diagram.png" y="-21" x="302" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-10" x="324" text-anchor="start">BigDecimalAsIfIntegral</text></a></g><!-- node3 --><g class="node object" id="graph1084_3"><a xlink:title="scala.math.Numeric.BigDecimalIsFractional" xlink:href="Numeric$$BigDecimalIsFractional$.html#inheritance-diagram"><polygon points="601,-26 455,-26 455,-0 601,-0 601,-26" stroke="#102966" fill="#3556a7"></polygon><image xlink:href="../../lib/object_diagram.png" y="-21" x="465" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-10" x="487" text-anchor="start">BigDecimalIsFractional</text></a></g><!-- node4 --><g class="node trait" id="graph1084_4"><a xlink:title="scala.math.Numeric.BigDecimalAsIfIntegral" xlink:href="Numeric$$BigDecimalAsIfIntegral.html#inheritance-diagram"><polygon points="436.25,-88 291.75,-88 291.75,-62 436.25,-62 436.25,-88" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-83" x="302" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72" x="324" text-anchor="start">BigDecimalAsIfIntegral</text></a></g><!-- node4&#45;&gt;node2 --><g class="edge inheritance" id="graph1084_4_2"><a xlink:title="BigDecimalAsIfIntegral is a subtype of BigDecimalAsIfIntegral"><path d="M364,-56.6826C364,-46.8961 364,-34.9026 364,-26.1238" stroke="#d4d4d4" fill="none"></path><polygon points="362.25,-56.8581 364,-61.8581 365.75,-56.8581 362.25,-56.8581" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node5 --><g class="node trait" id="graph1084_5"><a xlink:title="scala.math.Numeric.BigDecimalIsFractional" xlink:href="Numeric$$BigDecimalIsFractional.html#inheritance-diagram"><polygon points="601,-88 455,-88 455,-62 601,-62 601,-88" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-83" x="465" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72" x="487" text-anchor="start">BigDecimalIsFractional</text></a></g><!-- node5&#45;&gt;node3 --><g class="edge inheritance" id="graph1084_5_3"><a xlink:title="BigDecimalIsFractional is a subtype of BigDecimalIsFractional"><path d="M528,-56.6826C528,-46.8961 528,-34.9026 528,-26.1238" stroke="#d4d4d4" fill="none"></path><polygon points="526.25,-56.8581 528,-61.8581 529.75,-56.8581 526.25,-56.8581" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node6 --><g class="node trait" id="graph1084_6"><a xlink:title="scala.math.Numeric.BigDecimalIsConflicted" xlink:href="Numeric$$BigDecimalIsConflicted.html#inheritance-diagram"><polygon points="518.25,-150 371.75,-150 371.75,-124 518.25,-124 518.25,-150" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-145" x="382" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-134" x="404" text-anchor="start">BigDecimalIsConflicted</text></a></g><!-- node6&#45;&gt;node4 --><g class="edge inheritance" id="graph1084_6_4"><a xlink:title="BigDecimalAsIfIntegral is a subtype of BigDecimalIsConflicted"><path d="M424.505,-120.819C410.832,-110.691 393.096,-97.5529 380.367,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="423.549,-122.288 428.608,-123.858 425.632,-119.476 423.549,-122.288" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node6&#45;&gt;node5 --><g class="edge inheritance" id="graph1084_6_5"><a xlink:title="BigDecimalIsFractional is a subtype of BigDecimalIsConflicted"><path d="M466.001,-120.819C480.011,-110.691 498.185,-97.5529 511.229,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="464.823,-119.511 461.796,-123.858 466.874,-122.347 464.823,-119.511" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node7 --><g class="node trait" id="graph1084_7"><a xlink:title="scala.math.Numeric.DoubleAsIfIntegral" xlink:href="Numeric$$DoubleAsIfIntegral.html#inheritance-diagram"><polygon points="126.25,-88 -0.25,-88 -0.25,-62 126.25,-62 126.25,-88" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-83" x="10" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72" x="32" text-anchor="start">DoubleAsIfIntegral</text></a></g><!-- node7&#45;&gt;node0 --><g class="edge inheritance" id="graph1084_7_0"><a xlink:title="DoubleAsIfIntegral is a subtype of DoubleAsIfIntegral"><path d="M63,-56.6826C63,-46.8961 63,-34.9026 63,-26.1238" stroke="#d4d4d4" fill="none"></path><polygon points="61.2501,-56.8581 63,-61.8581 64.7501,-56.8581 61.2501,-56.8581" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node8 --><g class="node trait" id="graph1084_8"><a xlink:title="scala.math.Numeric.DoubleIsFractional" xlink:href="Numeric$$DoubleIsFractional.html#inheritance-diagram"><polygon points="273,-88 145,-88 145,-62 273,-62 273,-88" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-83" x="155" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72" x="177" text-anchor="start">DoubleIsFractional</text></a></g><!-- node8&#45;&gt;node1 --><g class="edge inheritance" id="graph1084_8_1"><a xlink:title="DoubleIsFractional is a subtype of DoubleIsFractional"><path d="M209,-56.6826C209,-46.8961 209,-34.9026 209,-26.1238" stroke="#d4d4d4" fill="none"></path><polygon points="207.25,-56.8581 209,-61.8581 210.75,-56.8581 207.25,-56.8581" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node9 --><g class="node trait" id="graph1084_9"><a xlink:title="scala.math.Numeric.DoubleIsConflicted" xlink:href="Numeric$$DoubleIsConflicted.html#inheritance-diagram"><polygon points="199,-150 71,-150 71,-124 199,-124 199,-150" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-145" x="81" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-134" x="103" text-anchor="start">DoubleIsConflicted</text></a></g><!-- node9&#45;&gt;node7 --><g class="edge inheritance" id="graph1084_9_7"><a xlink:title="DoubleAsIfIntegral is a subtype of DoubleIsConflicted"><path d="M116.468,-120.556C104.357,-110.464 88.766,-97.4716 77.5486,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="115.468,-122.002 120.43,-123.858 117.709,-119.313 115.468,-122.002" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node9&#45;&gt;node8 --><g class="edge inheritance" id="graph1084_9_8"><a xlink:title="DoubleIsFractional is a subtype of DoubleIsConflicted"><path d="M154.047,-120.556C166.494,-110.464 182.518,-97.4716 194.047,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="152.757,-119.35 149.975,-123.858 154.961,-122.068 152.757,-119.35" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node10 --><g class="node object" id="graph1084_10"><a xlink:title="scala.math.Numeric.FloatAsIfIntegral" xlink:href="Numeric$$FloatAsIfIntegral$.html#inheritance-diagram"><polygon points="736.25,-26 619.75,-26 619.75,-0 736.25,-0 736.25,-26" stroke="#102966" fill="#3556a7"></polygon><image xlink:href="../../lib/object_diagram.png" y="-21" x="630" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-10" x="652" text-anchor="start">FloatAsIfIntegral</text></a></g><!-- node11 --><g class="node object" id="graph1084_11"><a xlink:title="scala.math.Numeric.FloatIsFractional" xlink:href="Numeric$$FloatIsFractional$.html#inheritance-diagram"><polygon points="873,-26 755,-26 755,-0 873,-0 873,-26" stroke="#102966" fill="#3556a7"></polygon><image xlink:href="../../lib/object_diagram.png" y="-21" x="765" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-10" x="787" text-anchor="start">FloatIsFractional</text></a></g><!-- node12 --><g class="node trait" id="graph1084_12"><a xlink:title="scala.math.Numeric.FloatAsIfIntegral" xlink:href="Numeric$$FloatAsIfIntegral.html#inheritance-diagram"><polygon points="736.25,-88 619.75,-88 619.75,-62 736.25,-62 736.25,-88" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-83" x="630" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72" x="652" text-anchor="start">FloatAsIfIntegral</text></a></g><!-- node12&#45;&gt;node10 --><g class="edge inheritance" id="graph1084_12_10"><a xlink:title="FloatAsIfIntegral is a subtype of FloatAsIfIntegral"><path d="M678,-56.6826C678,-46.8961 678,-34.9026 678,-26.1238" stroke="#d4d4d4" fill="none"></path><polygon points="676.25,-56.8581 678,-61.8581 679.75,-56.8581 676.25,-56.8581" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node13 --><g class="node trait" id="graph1084_13"><a xlink:title="scala.math.Numeric.FloatIsFractional" xlink:href="Numeric$$FloatIsFractional.html#inheritance-diagram"><polygon points="873,-88 755,-88 755,-62 873,-62 873,-88" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-83" x="765" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72" x="787" text-anchor="start">FloatIsFractional</text></a></g><!-- node13&#45;&gt;node11 --><g class="edge inheritance" id="graph1084_13_11"><a xlink:title="FloatIsFractional is a subtype of FloatIsFractional"><path d="M814,-56.6826C814,-46.8961 814,-34.9026 814,-26.1238" stroke="#d4d4d4" fill="none"></path><polygon points="812.25,-56.8581 814,-61.8581 815.75,-56.8581 812.25,-56.8581" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node14 --><g class="node trait" id="graph1084_14"><a xlink:title="scala.math.Numeric.FloatIsConflicted" xlink:href="Numeric$$FloatIsConflicted.html#inheritance-diagram"><polygon points="804.25,-150 685.75,-150 685.75,-124 804.25,-124 804.25,-150" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-145" x="696" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-134" x="718" text-anchor="start">FloatIsConflicted</text></a></g><!-- node14&#45;&gt;node12 --><g class="edge inheritance" id="graph1084_14_12"><a xlink:title="FloatAsIfIntegral is a subtype of FloatIsConflicted"><path d="M727.46,-120.292C716.233,-110.239 701.886,-97.3904 691.538,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="726.549,-121.826 731.442,-123.858 728.884,-119.219 726.549,-121.826" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node14&#45;&gt;node13 --><g class="edge inheritance" id="graph1084_14_13"><a xlink:title="FloatIsFractional is a subtype of FloatIsConflicted"><path d="M762.76,-120.556C774.366,-110.464 789.308,-97.4716 800.058,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="761.588,-119.257 758.963,-123.858 763.885,-121.898 761.588,-119.257" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node15 --><g class="node object" id="graph1084_15"><a xlink:title="scala.math.Numeric.LongIsIntegral" xlink:href="Numeric$$LongIsIntegral$.html#inheritance-diagram"><polygon points="999,-88 891,-88 891,-62 999,-62 999,-88" stroke="#102966" fill="#3556a7"></polygon><image xlink:href="../../lib/object_diagram.png" y="-83" x="901" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72" x="923" text-anchor="start">LongIsIntegral</text></a></g><!-- node16 --><g class="node trait" id="graph1084_16"><a xlink:title="scala.math.Numeric.LongIsIntegral" xlink:href="Numeric$$LongIsIntegral.html#inheritance-diagram"><polygon points="999,-150 891,-150 891,-124 999,-124 999,-150" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-145" x="901" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-134" x="923" text-anchor="start">LongIsIntegral</text></a></g><!-- node16&#45;&gt;node15 --><g class="edge inheritance" id="graph1084_16_15"><a xlink:title="LongIsIntegral is a subtype of LongIsIntegral"><path d="M945,-118.683C945,-108.896 945,-96.9026 945,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="943.25,-118.858 945,-123.858 946.75,-118.858 943.25,-118.858" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node17 --><g class="node object" id="graph1084_17"><a xlink:title="scala.math.Numeric.CharIsIntegral" xlink:href="Numeric$$CharIsIntegral$.html#inheritance-diagram"><polygon points="1124.25,-88 1017.75,-88 1017.75,-62 1124.25,-62 1124.25,-88" stroke="#102966" fill="#3556a7"></polygon><image xlink:href="../../lib/object_diagram.png" y="-83" x="1028" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72" x="1050" text-anchor="start">CharIsIntegral</text></a></g><!-- node18 --><g class="node trait" id="graph1084_18"><a xlink:title="scala.math.Numeric.CharIsIntegral" xlink:href="Numeric$$CharIsIntegral.html#inheritance-diagram"><polygon points="1124.25,-150 1017.75,-150 1017.75,-124 1124.25,-124 1124.25,-150" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-145" x="1028" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-134" x="1050" text-anchor="start">CharIsIntegral</text></a></g><!-- node18&#45;&gt;node17 --><g class="edge inheritance" id="graph1084_18_17"><a xlink:title="CharIsIntegral is a subtype of CharIsIntegral"><path d="M1071,-118.683C1071,-108.896 1071,-96.9026 1071,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="1069.25,-118.858 1071,-123.858 1072.75,-118.858 1069.25,-118.858" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node19 --><g class="node object" id="graph1084_19"><a xlink:title="scala.math.Numeric.ByteIsIntegral" xlink:href="Numeric$$ByteIsIntegral$.html#inheritance-diagram"><polygon points="1247.25,-88 1142.75,-88 1142.75,-62 1247.25,-62 1247.25,-88" stroke="#102966" fill="#3556a7"></polygon><image xlink:href="../../lib/object_diagram.png" y="-83" x="1153" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72" x="1175" text-anchor="start">ByteIsIntegral</text></a></g><!-- node20 --><g class="node trait" id="graph1084_20"><a xlink:title="scala.math.Numeric.ByteIsIntegral" xlink:href="Numeric$$ByteIsIntegral.html#inheritance-diagram"><polygon points="1247.25,-150 1142.75,-150 1142.75,-124 1247.25,-124 1247.25,-150" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-145" x="1153" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-134" x="1175" text-anchor="start">ByteIsIntegral</text></a></g><!-- node20&#45;&gt;node19 --><g class="edge inheritance" id="graph1084_20_19"><a xlink:title="ByteIsIntegral is a subtype of ByteIsIntegral"><path d="M1195,-118.683C1195,-108.896 1195,-96.9026 1195,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="1193.25,-118.858 1195,-123.858 1196.75,-118.858 1193.25,-118.858" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node21 --><g class="node object" id="graph1084_21"><a xlink:title="scala.math.Numeric.ShortIsIntegral" xlink:href="Numeric$$ShortIsIntegral$.html#inheritance-diagram"><polygon points="1374.25,-88 1265.75,-88 1265.75,-62 1374.25,-62 1374.25,-88" stroke="#102966" fill="#3556a7"></polygon><image xlink:href="../../lib/object_diagram.png" y="-83" x="1276" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72" x="1298" text-anchor="start">ShortIsIntegral</text></a></g><!-- node22 --><g class="node trait" id="graph1084_22"><a xlink:title="scala.math.Numeric.ShortIsIntegral" xlink:href="Numeric$$ShortIsIntegral.html#inheritance-diagram"><polygon points="1374.25,-150 1265.75,-150 1265.75,-124 1374.25,-124 1374.25,-150" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-145" x="1276" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-134" x="1298" text-anchor="start">ShortIsIntegral</text></a></g><!-- node22&#45;&gt;node21 --><g class="edge inheritance" id="graph1084_22_21"><a xlink:title="ShortIsIntegral is a subtype of ShortIsIntegral"><path d="M1320,-118.683C1320,-108.896 1320,-96.9026 1320,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="1318.25,-118.858 1320,-123.858 1321.75,-118.858 1318.25,-118.858" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node23 --><g class="node object" id="graph1084_23"><a xlink:title="scala.math.Numeric.IntIsIntegral" xlink:href="Numeric$$IntIsIntegral$.html#inheritance-diagram"><polygon points="1489.25,-88 1392.75,-88 1392.75,-62 1489.25,-62 1489.25,-88" stroke="#102966" fill="#3556a7"></polygon><image xlink:href="../../lib/object_diagram.png" y="-83" x="1403" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72" x="1425" text-anchor="start">IntIsIntegral</text></a></g><!-- node24 --><g class="node trait" id="graph1084_24"><a xlink:title="scala.math.Numeric.IntIsIntegral" xlink:href="Numeric$$IntIsIntegral.html#inheritance-diagram"><polygon points="1489.25,-150 1392.75,-150 1392.75,-124 1489.25,-124 1489.25,-150" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-145" x="1403" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-134" x="1425" text-anchor="start">IntIsIntegral</text></a></g><!-- node24&#45;&gt;node23 --><g class="edge inheritance" id="graph1084_24_23"><a xlink:title="IntIsIntegral is a subtype of IntIsIntegral"><path d="M1441,-118.683C1441,-108.896 1441,-96.9026 1441,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="1439.25,-118.858 1441,-123.858 1442.75,-118.858 1439.25,-118.858" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node25 --><g class="node object" id="graph1084_25"><a xlink:title="scala.math.Numeric.BigIntIsIntegral" xlink:href="Numeric$$BigIntIsIntegral$.html#inheritance-diagram"><polygon points="1618.25,-88 1507.75,-88 1507.75,-62 1618.25,-62 1618.25,-88" stroke="#102966" fill="#3556a7"></polygon><image xlink:href="../../lib/object_diagram.png" y="-83" x="1518" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72" x="1540" text-anchor="start">BigIntIsIntegral</text></a></g><!-- node26 --><g class="node trait" id="graph1084_26"><a xlink:title="scala.math.Numeric.BigIntIsIntegral" xlink:href="Numeric$$BigIntIsIntegral.html#inheritance-diagram"><polygon points="1618.25,-150 1507.75,-150 1507.75,-124 1618.25,-124 1618.25,-150" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-145" x="1518" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-134" x="1540" text-anchor="start">BigIntIsIntegral</text></a></g><!-- node26&#45;&gt;node25 --><g class="edge inheritance" id="graph1084_26_25"><a xlink:title="BigIntIsIntegral is a subtype of BigIntIsIntegral"><path d="M1563,-118.683C1563,-108.896 1563,-96.9026 1563,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="1561.25,-118.858 1563,-123.858 1564.75,-118.858 1561.25,-118.858" stroke="#d4d4d4" fill="none"></polygon></a></g><!-- node27 --><g class="node object" id="graph1084_27"><a xlink:title="scala.math.Numeric.Implicits" xlink:href="Numeric$$Implicits$.html#inheritance-diagram"><polygon points="1729,-88 1649,-88 1649,-62 1729,-62 1729,-88" stroke="#102966" fill="#3556a7"></polygon><image xlink:href="../../lib/object_diagram.png" y="-83" x="1659" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-72" x="1681" text-anchor="start">Implicits</text></a></g><!-- node28 --><g class="node trait" id="graph1084_28"><a xlink:title="scala.math.Numeric.ExtraImplicits" xlink:href="Numeric$$ExtraImplicits.html#inheritance-diagram"><polygon points="1741,-150 1637,-150 1637,-124 1741,-124 1741,-150" stroke="#37657d" fill="#498aad"></polygon><image xlink:href="../../lib/trait_diagram.png" y="-145" x="1647" preserveAspectRatio="xMinYMin meet" height="16px" width="16px"></image><text fill="#ffffff" font-size="10.00" font-family="Arial" y="-134" x="1669" text-anchor="start">ExtraImplicits</text></a></g><!-- node28&#45;&gt;node27 --><g class="edge inheritance" id="graph1084_28_27"><a xlink:title="Implicits is a subtype of ExtraImplicits"><path d="M1689,-118.683C1689,-108.896 1689,-96.9026 1689,-88.1238" stroke="#d4d4d4" fill="none"></path><polygon points="1687.25,-118.858 1689,-123.858 1690.75,-118.858 1687.25,-118.858" stroke="#d4d4d4" fill="none"></polygon></a></g></g></svg></div>
+              </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol>
+                
+                <li class="alpha in"><span>Alphabetic</span></li>
+                <li class="inherit out"><span>By inheritance</span></li>
+              </ol>
+            </div>
+        <div id="ancestors">
+                <span class="filtertype">Inherited<br />
+                </span>
+                <ol id="linearization">
+                  <li class="in" name="scala.math.Numeric"><span>Numeric</span></li><li class="in" name="scala.Serializable"><span>Serializable</span></li><li class="in" name="java.io.Serializable"><span>Serializable</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                </ol>
+              </div><div id="ancestors">
+            <span class="filtertype"></span>
+            <ol>
+              <li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show all</span></li>
+            </ol>
+            <a href="http://docs.scala-lang.org/overviews/scaladoc/usage.html#members" target="_blank">Learn more about member selection</a>
+          </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="scala.math.Numeric.BigDecimalAsIfIntegral" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="BigDecimalAsIfIntegralextendsNumeric.BigDecimalIsConflictedwithIntegral[scala.math.BigDecimal]"></a>
+      <a id="BigDecimalAsIfIntegral:BigDecimalAsIfIntegral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$BigDecimalAsIfIntegral.html"><span class="name">BigDecimalAsIfIntegral</span></a><span class="result"> extends <a href="Numeric$$BigDecimalIsConflicted.html" class="extype" name="scala.math.Numeric.BigDecimalIsConflicted">BigDecimalIsConflicted</a> with <a href="Integral.html" class="extype" name="scala.math.Integral">Integral</a>[<a href="BigDecimal.html" class="extype" name="scala.math.BigDecimal">BigDecimal</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.BigDecimalIsConflicted" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="BigDecimalIsConflictedextendsNumeric[scala.math.BigDecimal]"></a>
+      <a id="BigDecimalIsConflicted:BigDecimalIsConflicted"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$BigDecimalIsConflicted.html"><span class="name">BigDecimalIsConflicted</span></a><span class="result"> extends <a href="Numeric.html" class="extype" name="scala.math.Numeric">Numeric</a>[<a href="BigDecimal.html" class="extype" name="scala.math.BigDecimal">BigDecimal</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.BigDecimalIsFractional" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="BigDecimalIsFractionalextendsNumeric.BigDecimalIsConflictedwithFractional[scala.math.BigDecimal]"></a>
+      <a id="BigDecimalIsFractional:BigDecimalIsFractional"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$BigDecimalIsFractional.html"><span class="name">BigDecimalIsFractional</span></a><span class="result"> extends <a href="Numeric$$BigDecimalIsConflicted.html" class="extype" name="scala.math.Numeric.BigDecimalIsConflicted">BigDecimalIsConflicted</a> with <a href="Fractional.html" class="extype" name="scala.math.Fractional">Fractional</a>[<a href="BigDecimal.html" class="extype" name="scala.math.BigDecimal">BigDecimal</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.BigIntIsIntegral" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="BigIntIsIntegralextendsIntegral[scala.math.BigInt]"></a>
+      <a id="BigIntIsIntegral:BigIntIsIntegral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$BigIntIsIntegral.html"><span class="name">BigIntIsIntegral</span></a><span class="result"> extends <a href="Integral.html" class="extype" name="scala.math.Integral">Integral</a>[<a href="BigInt.html" class="extype" name="scala.math.BigInt">BigInt</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.ByteIsIntegral" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="ByteIsIntegralextendsIntegral[Byte]"></a>
+      <a id="ByteIsIntegral:ByteIsIntegral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$ByteIsIntegral.html"><span class="name">ByteIsIntegral</span></a><span class="result"> extends <a href="Integral.html" class="extype" name="scala.math.Integral">Integral</a>[<a href="../Byte.html" class="extype" name="scala.Byte">Byte</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.CharIsIntegral" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="CharIsIntegralextendsIntegral[Char]"></a>
+      <a id="CharIsIntegral:CharIsIntegral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$CharIsIntegral.html"><span class="name">CharIsIntegral</span></a><span class="result"> extends <a href="Integral.html" class="extype" name="scala.math.Integral">Integral</a>[<a href="../Char.html" class="extype" name="scala.Char">Char</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.DoubleAsIfIntegral" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="DoubleAsIfIntegralextendsNumeric.DoubleIsConflictedwithIntegral[Double]"></a>
+      <a id="DoubleAsIfIntegral:DoubleAsIfIntegral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$DoubleAsIfIntegral.html"><span class="name">DoubleAsIfIntegral</span></a><span class="result"> extends <a href="Numeric$$DoubleIsConflicted.html" class="extype" name="scala.math.Numeric.DoubleIsConflicted">DoubleIsConflicted</a> with <a href="Integral.html" class="extype" name="scala.math.Integral">Integral</a>[<a href="../Double.html" class="extype" name="scala.Double">Double</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.DoubleIsConflicted" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="DoubleIsConflictedextendsNumeric[Double]"></a>
+      <a id="DoubleIsConflicted:DoubleIsConflicted"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$DoubleIsConflicted.html"><span class="name">DoubleIsConflicted</span></a><span class="result"> extends <a href="Numeric.html" class="extype" name="scala.math.Numeric">Numeric</a>[<a href="../Double.html" class="extype" name="scala.Double">Double</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.DoubleIsFractional" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="DoubleIsFractionalextendsNumeric.DoubleIsConflictedwithFractional[Double]"></a>
+      <a id="DoubleIsFractional:DoubleIsFractional"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$DoubleIsFractional.html"><span class="name">DoubleIsFractional</span></a><span class="result"> extends <a href="Numeric$$DoubleIsConflicted.html" class="extype" name="scala.math.Numeric.DoubleIsConflicted">DoubleIsConflicted</a> with <a href="Fractional.html" class="extype" name="scala.math.Fractional">Fractional</a>[<a href="../Double.html" class="extype" name="scala.Double">Double</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.ExtraImplicits" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="ExtraImplicitsextendsAnyRef"></a>
+      <a id="ExtraImplicits:ExtraImplicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$ExtraImplicits.html"><span class="name">ExtraImplicits</span></a><span class="result"> extends <a href="../AnyRef.html" class="extype" name="scala.AnyRef">AnyRef</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.FloatAsIfIntegral" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="FloatAsIfIntegralextendsNumeric.FloatIsConflictedwithIntegral[Float]"></a>
+      <a id="FloatAsIfIntegral:FloatAsIfIntegral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$FloatAsIfIntegral.html"><span class="name">FloatAsIfIntegral</span></a><span class="result"> extends <a href="Numeric$$FloatIsConflicted.html" class="extype" name="scala.math.Numeric.FloatIsConflicted">FloatIsConflicted</a> with <a href="Integral.html" class="extype" name="scala.math.Integral">Integral</a>[<a href="../Float.html" class="extype" name="scala.Float">Float</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.FloatIsConflicted" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="FloatIsConflictedextendsNumeric[Float]"></a>
+      <a id="FloatIsConflicted:FloatIsConflicted"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$FloatIsConflicted.html"><span class="name">FloatIsConflicted</span></a><span class="result"> extends <a href="Numeric.html" class="extype" name="scala.math.Numeric">Numeric</a>[<a href="../Float.html" class="extype" name="scala.Float">Float</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.FloatIsFractional" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="FloatIsFractionalextendsNumeric.FloatIsConflictedwithFractional[Float]"></a>
+      <a id="FloatIsFractional:FloatIsFractional"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$FloatIsFractional.html"><span class="name">FloatIsFractional</span></a><span class="result"> extends <a href="Numeric$$FloatIsConflicted.html" class="extype" name="scala.math.Numeric.FloatIsConflicted">FloatIsConflicted</a> with <a href="Fractional.html" class="extype" name="scala.math.Fractional">Fractional</a>[<a href="../Float.html" class="extype" name="scala.Float">Float</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.IntIsIntegral" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="IntIsIntegralextendsIntegral[Int]"></a>
+      <a id="IntIsIntegral:IntIsIntegral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$IntIsIntegral.html"><span class="name">IntIsIntegral</span></a><span class="result"> extends <a href="Integral.html" class="extype" name="scala.math.Integral">Integral</a>[<a href="../Int.html" class="extype" name="scala.Int">Int</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.LongIsIntegral" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="LongIsIntegralextendsIntegral[Long]"></a>
+      <a id="LongIsIntegral:LongIsIntegral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$LongIsIntegral.html"><span class="name">LongIsIntegral</span></a><span class="result"> extends <a href="Integral.html" class="extype" name="scala.math.Integral">Integral</a>[<a href="../Long.html" class="extype" name="scala.Long">Long</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.ShortIsIntegral" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="ShortIsIntegralextendsIntegral[Short]"></a>
+      <a id="ShortIsIntegral:ShortIsIntegral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$ShortIsIntegral.html"><span class="name">ShortIsIntegral</span></a><span class="result"> extends <a href="Integral.html" class="extype" name="scala.math.Integral">Integral</a>[<a href="../Short.html" class="extype" name="scala.Short">Short</a>]</span>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="scala.AnyRef#!=" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!=(x$1:AnyRef):Boolean"></a>
+      <a id="!=(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq" class="name">!=</span><span class="params">(<span name="arg0">arg0: <a href="../AnyRef.html" class="extype" name="scala.AnyRef">AnyRef</a></span>)</span><span class="result">: <a href="../Boolean.html" class="extype" name="scala.Boolean">Boolean</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.Any#!=" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!=(x$1:Any):Boolean"></a>
+      <a id="!=(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq" class="name">!=</span><span class="params">(<span name="arg0">arg0: <a href="../Any.html" class="extype" name="scala.Any">Any</a></span>)</span><span class="result">: <a href="../Boolean.html" class="extype" name="scala.Boolean">Boolean</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Test two objects for inequality.</p><div class="fullcomment"><div class="comment cmt"><p>Test two objects for inequality.
+</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p><code>true</code> if !(this == that), false otherwise.
+</p></dd></dl><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../Any.html" class="extype" name="scala.Any">Any</a></dd></dl></div>
+    </li><li name="scala.AnyRef###" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="##():Int"></a>
+      <a id="##():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $hash$hash" class="name">##</span><span class="params">()</span><span class="result">: <a href="../Int.html" class="extype" name="scala.Int">Int</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Equivalent to <code>x.hashCode</code> except for boxed numeric types and <code>null</code>.</p><div class="fullcomment"><div class="comment cmt"><p>Equivalent to <code>x.hashCode</code> except for boxed numeric types and <code>null</code>.
+ For numerics, it returns a hash value which is consistent
+ with value equality: if two value type instances compare
+ as true, then ## will produce the same hash value for each
+ of them.
+ For <code>null</code> returns a hashcode where <code>null.hashCode</code> throws a
+ <code>NullPointerException</code>.
+</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p>a hash value consistent with ==
+</p></dd></dl><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → <a href="../Any.html" class="extype" name="scala.Any">Any</a></dd></dl></div>
+    </li><li name="scala.AnyRef#==" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="==(x$1:AnyRef):Boolean"></a>
+      <a id="==(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq" class="name">==</span><span class="params">(<span name="arg0">arg0: <a href="../AnyRef.html" class="extype" name="scala.AnyRef">AnyRef</a></span>)</span><span class="result">: <a href="../Boolean.html" class="extype" name="scala.Boolean">Boolean</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.Any#==" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="==(x$1:Any):Boolean"></a>
+      <a id="==(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq" class="name">==</span><span class="params">(<span name="arg0">arg0: <a href="../Any.html" class="extype" name="scala.Any">Any</a></span>)</span><span class="result">: <a href="../Boolean.html" class="extype" name="scala.Boolean">Boolean</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Test two objects for equality.</p><div class="fullcomment"><div class="comment cmt"><p>Test two objects for equality.
+ The expression <code>x == that</code> is equivalent to <code>if (x eq null) that eq null else x.equals(that)</code>.
+</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p><code>true</code> if the receiver object is equivalent to the argument; <code>false</code> otherwise.
+</p></dd></dl><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../Any.html" class="extype" name="scala.Any">Any</a></dd></dl></div>
+    </li><li name="scala.math.Numeric.BigDecimalAsIfIntegral" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BigDecimalAsIfIntegral"></a>
+      <a id="BigDecimalAsIfIntegral:BigDecimalAsIfIntegral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$BigDecimalAsIfIntegral$.html"><span class="name">BigDecimalAsIfIntegral</span></a><span class="result"> extends <a href="Numeric$$BigDecimalAsIfIntegral.html" class="extype" name="scala.math.Numeric.BigDecimalAsIfIntegral">BigDecimalAsIfIntegral</a> with <a href="Ordering$$BigDecimalOrdering.html" class="extype" name="scala.math.Ordering.BigDecimalOrdering">BigDecimalOrdering</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.BigDecimalIsFractional" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BigDecimalIsFractional"></a>
+      <a id="BigDecimalIsFractional:BigDecimalIsFractional"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$BigDecimalIsFractional$.html"><span class="name">BigDecimalIsFractional</span></a><span class="result"> extends <a href="Numeric$$BigDecimalIsFractional.html" class="extype" name="scala.math.Numeric.BigDecimalIsFractional">BigDecimalIsFractional</a> with <a href="Ordering$$BigDecimalOrdering.html" class="extype" name="scala.math.Ordering.BigDecimalOrdering">BigDecimalOrdering</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.BigIntIsIntegral" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BigIntIsIntegral"></a>
+      <a id="BigIntIsIntegral:BigIntIsIntegral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$BigIntIsIntegral$.html"><span class="name">BigIntIsIntegral</span></a><span class="result"> extends <a href="Numeric$$BigIntIsIntegral.html" class="extype" name="scala.math.Numeric.BigIntIsIntegral">BigIntIsIntegral</a> with <a href="Ordering$$BigIntOrdering.html" class="extype" name="scala.math.Ordering.BigIntOrdering">BigIntOrdering</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.ByteIsIntegral" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ByteIsIntegral"></a>
+      <a id="ByteIsIntegral:ByteIsIntegral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$ByteIsIntegral$.html"><span class="name">ByteIsIntegral</span></a><span class="result"> extends <a href="Numeric$$ByteIsIntegral.html" class="extype" name="scala.math.Numeric.ByteIsIntegral">ByteIsIntegral</a> with <a href="Ordering$$ByteOrdering.html" class="extype" name="scala.math.Ordering.ByteOrdering">ByteOrdering</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.CharIsIntegral" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CharIsIntegral"></a>
+      <a id="CharIsIntegral:CharIsIntegral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$CharIsIntegral$.html"><span class="name">CharIsIntegral</span></a><span class="result"> extends <a href="Numeric$$CharIsIntegral.html" class="extype" name="scala.math.Numeric.CharIsIntegral">CharIsIntegral</a> with <a href="Ordering$$CharOrdering.html" class="extype" name="scala.math.Ordering.CharOrdering">CharOrdering</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.DoubleAsIfIntegral" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DoubleAsIfIntegral"></a>
+      <a id="DoubleAsIfIntegral:DoubleAsIfIntegral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$DoubleAsIfIntegral$.html"><span class="name">DoubleAsIfIntegral</span></a><span class="result"> extends <a href="Numeric$$DoubleAsIfIntegral.html" class="extype" name="scala.math.Numeric.DoubleAsIfIntegral">DoubleAsIfIntegral</a> with <a href="Ordering$$DoubleOrdering.html" class="extype" name="scala.math.Ordering.DoubleOrdering">DoubleOrdering</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.DoubleIsFractional" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DoubleIsFractional"></a>
+      <a id="DoubleIsFractional:DoubleIsFractional"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$DoubleIsFractional$.html"><span class="name">DoubleIsFractional</span></a><span class="result"> extends <a href="Numeric$$DoubleIsFractional.html" class="extype" name="scala.math.Numeric.DoubleIsFractional">DoubleIsFractional</a> with <a href="Ordering$$DoubleOrdering.html" class="extype" name="scala.math.Ordering.DoubleOrdering">DoubleOrdering</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.FloatAsIfIntegral" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FloatAsIfIntegral"></a>
+      <a id="FloatAsIfIntegral:FloatAsIfIntegral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$FloatAsIfIntegral$.html"><span class="name">FloatAsIfIntegral</span></a><span class="result"> extends <a href="Numeric$$FloatAsIfIntegral.html" class="extype" name="scala.math.Numeric.FloatAsIfIntegral">FloatAsIfIntegral</a> with <a href="Ordering$$FloatOrdering.html" class="extype" name="scala.math.Ordering.FloatOrdering">FloatOrdering</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.FloatIsFractional" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FloatIsFractional"></a>
+      <a id="FloatIsFractional:FloatIsFractional"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$FloatIsFractional$.html"><span class="name">FloatIsFractional</span></a><span class="result"> extends <a href="Numeric$$FloatIsFractional.html" class="extype" name="scala.math.Numeric.FloatIsFractional">FloatIsFractional</a> with <a href="Ordering$$FloatOrdering.html" class="extype" name="scala.math.Ordering.FloatOrdering">FloatOrdering</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.Implicits" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Implicits"></a>
+      <a id="Implicits:Implicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$Implicits$.html"><span class="name">Implicits</span></a><span class="result"> extends <a href="Numeric$$ExtraImplicits.html" class="extype" name="scala.math.Numeric.ExtraImplicits">ExtraImplicits</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.IntIsIntegral" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="IntIsIntegral"></a>
+      <a id="IntIsIntegral:IntIsIntegral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$IntIsIntegral$.html"><span class="name">IntIsIntegral</span></a><span class="result"> extends <a href="Numeric$$IntIsIntegral.html" class="extype" name="scala.math.Numeric.IntIsIntegral">IntIsIntegral</a> with <a href="Ordering$$IntOrdering.html" class="extype" name="scala.math.Ordering.IntOrdering">IntOrdering</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.LongIsIntegral" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="LongIsIntegral"></a>
+      <a id="LongIsIntegral:LongIsIntegral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$LongIsIntegral$.html"><span class="name">LongIsIntegral</span></a><span class="result"> extends <a href="Numeric$$LongIsIntegral.html" class="extype" name="scala.math.Numeric.LongIsIntegral">LongIsIntegral</a> with <a href="Ordering$$LongOrdering.html" class="extype" name="scala.math.Ordering.LongOrdering">LongOrdering</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.math.Numeric.ShortIsIntegral" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ShortIsIntegral"></a>
+      <a id="ShortIsIntegral:ShortIsIntegral"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Numeric$$ShortIsIntegral$.html"><span class="name">ShortIsIntegral</span></a><span class="result"> extends <a href="Numeric$$ShortIsIntegral.html" class="extype" name="scala.math.Numeric.ShortIsIntegral">ShortIsIntegral</a> with <a href="Ordering$$ShortOrdering.html" class="extype" name="scala.math.Ordering.ShortOrdering">ShortOrdering</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.Any#asInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="asInstanceOf[T0]:T0"></a>
+      <a id="asInstanceOf[T0]:T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">asInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Any.asInstanceOf.T0">T0</span></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Cast the receiver object to be of type <code>T0</code>.</p><div class="fullcomment"><div class="comment cmt"><p>Cast the receiver object to be of type <code>T0</code>.</p><p> Note that the success of a cast at runtime is modulo Scala's erasure semantics.
+ Therefore the expression <code>1.asInstanceOf[String]</code> will throw a <code>ClassCastException</code> at
+ runtime, while the expression <code>List(1).asInstanceOf[List[String]]</code> will not.
+ In the latter example, because the type argument is erased as part of compilation it is
+ not possible to check whether the contents of the list are of the requested type.
+</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p>the receiver object.
+</p></dd></dl><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../Any.html" class="extype" name="scala.Any">Any</a></dd><dt>Exceptions thrown</dt><dd><span class="cmt">ClassCastException<p>if the receiver object is not an instance of the erasure of type <code>T0</code>.</p></span></dd></dl></div>
+    </li><li name="scala.AnyRef#clone" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="clone():Object"></a>
+      <a id="clone():AnyRef"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">clone</span><span class="params">()</span><span class="result">: <a href="../AnyRef.html" class="extype" name="scala.AnyRef">AnyRef</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Create a copy of the receiver object.</p><div class="fullcomment"><div class="comment cmt"><p>Create a copy of the receiver object.</p><p> The default implementation of the <code>clone</code> method is platform dependent.
+</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p>a copy of the receiver object.
+</p></dd></dl><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@<a href="../throws.html" class="extype" name="scala.throws">throws</a></span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.CloneNotSupportedException]">...</span>
+    </span>)</span>
+              
+        </dd><dt>Note</dt><dd><span class="cmt"><p>not specified by SLS as a member of AnyRef</p></span></dd></dl></div>
+    </li><li name="scala.AnyRef#eq" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="eq(x$1:AnyRef):Boolean"></a>
+      <a id="eq(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">eq</span><span class="params">(<span name="arg0">arg0: <a href="../AnyRef.html" class="extype" name="scala.AnyRef">AnyRef</a></span>)</span><span class="result">: <a href="../Boolean.html" class="extype" name="scala.Boolean">Boolean</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Tests whether the argument (<code>arg0</code>) is a reference to the receiver object (<code>this</code>).</p><div class="fullcomment"><div class="comment cmt"><p>Tests whether the argument (<code>arg0</code>) is a reference to the receiver object (<code>this</code>).</p><p> The <code>eq</code> method implements an <a href="http://en.wikipedia.org/wiki/Equivalence_relation" target="_blank">equivalence relation</a> on
+ non-null instances of <code>AnyRef</code>, and has three additional properties:</p><ul><li>It is consistent: for any non-null instances <code>x</code> and <code>y</code> of type <code>AnyRef</code>, multiple invocations of
+    <code>x.eq(y)</code> consistently returns <code>true</code> or consistently returns <code>false</code>.</li><li>For any non-null instance <code>x</code> of type <code>AnyRef</code>, <code>x.eq(null)</code> and <code>null.eq(x)</code> returns <code>false</code>.</li><li><code>null.eq(null)</code> returns <code>true</code>.</li></ul><p> When overriding the <code>equals</code> or <code>hashCode</code> methods, it is important to ensure that their behavior is
+ consistent with reference equality.  Therefore, if two objects are references to each other (<code>o1 eq o2</code>), they
+ should be equal to each other (<code>o1 == o2</code>) and they should hash to the same value (<code>o1.hashCode == o2.hashCode</code>).
+</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p><code>true</code> if the argument is a reference to the receiver object; <code>false</code> otherwise.
+</p></dd></dl><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#equals" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="equals(x$1:Any):Boolean"></a>
+      <a id="equals(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">equals</span><span class="params">(<span name="arg0">arg0: <a href="../Any.html" class="extype" name="scala.Any">Any</a></span>)</span><span class="result">: <a href="../Boolean.html" class="extype" name="scala.Boolean">Boolean</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">The equality method for reference types.</p><div class="fullcomment"><div class="comment cmt"><p>The equality method for reference types.  Default implementation delegates to <code>eq</code>.</p><p> See also <code>equals</code> in <a href="../Any.html" class="extype" name="scala.Any">scala.Any</a>.
+</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p><code>true</code> if the receiver object is equivalent to the argument; <code>false</code> otherwise.
+</p></dd></dl><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → <a href="../Any.html" class="extype" name="scala.Any">Any</a></dd></dl></div>
+    </li><li name="scala.AnyRef#finalize" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="finalize():Unit"></a>
+      <a id="finalize():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">finalize</span><span class="params">()</span><span class="result">: <a href="../Unit.html" class="extype" name="scala.Unit">Unit</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Called by the garbage collector on the receiver object when there
+ are no more references to the object.</p><div class="fullcomment"><div class="comment cmt"><p>Called by the garbage collector on the receiver object when there
+ are no more references to the object.</p><p> The details of when and if the <code>finalize</code> method is invoked, as
+ well as the interaction between <code>finalize</code> and non-local returns
+ and exceptions, are all platform dependent.
+</p></div><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@<a href="../throws.html" class="extype" name="scala.throws">throws</a></span><span class="args">(<span>
+      
+      <span class="symbol">classOf[java.lang.Throwable]</span>
+    </span>)</span>
+              
+        </dd><dt>Note</dt><dd><span class="cmt"><p>not specified by SLS as a member of AnyRef
+</p></span></dd></dl></div>
+    </li><li name="scala.AnyRef#getClass" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="getClass():Class[_]"></a>
+      <a id="getClass():Class[_]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getClass</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.Class">Class</span>[_]</span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">A representation that corresponds to the dynamic class of the receiver object.</p><div class="fullcomment"><div class="comment cmt"><p>A representation that corresponds to the dynamic class of the receiver object.</p><p> The nature of the representation is platform dependent.
+</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p>a representation that corresponds to the dynamic class of the receiver object.
+</p></dd></dl><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → <a href="../Any.html" class="extype" name="scala.Any">Any</a></dd><dt>Note</dt><dd><span class="cmt"><p>not specified by SLS as a member of AnyRef</p></span></dd></dl></div>
+    </li><li name="scala.AnyRef#hashCode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="hashCode():Int"></a>
+      <a id="hashCode():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hashCode</span><span class="params">()</span><span class="result">: <a href="../Int.html" class="extype" name="scala.Int">Int</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">The hashCode method for reference types.</p><div class="fullcomment"><div class="comment cmt"><p>The hashCode method for reference types.  See hashCode in <a href="../Any.html" class="extype" name="scala.Any">scala.Any</a>.
+</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p>the hash code value for this object.
+</p></dd></dl><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → <a href="../Any.html" class="extype" name="scala.Any">Any</a></dd></dl></div>
+    </li><li name="scala.Any#isInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <a href="../Boolean.html" class="extype" name="scala.Boolean">Boolean</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Test whether the dynamic type of the receiver object is <code>T0</code>.</p><div class="fullcomment"><div class="comment cmt"><p>Test whether the dynamic type of the receiver object is <code>T0</code>.</p><p> Note that the result of the test is modulo Scala's erasure semantics.
+ Therefore the expression <code>1.isInstanceOf[String]</code> will return <code>false</code>, while the
+ expression <code>List(1).isInstanceOf[List[String]]</code> will return <code>true</code>.
+ In the latter example, because the type argument is erased as part of compilation it is
+ not possible to check whether the contents of the list are of the specified type.
+</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p><code>true</code> if the receiver object is an instance of erasure of type <code>T0</code>; <code>false</code> otherwise.
+</p></dd></dl><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../Any.html" class="extype" name="scala.Any">Any</a></dd></dl></div>
+    </li><li name="scala.AnyRef#ne" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ne(x$1:AnyRef):Boolean"></a>
+      <a id="ne(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ne</span><span class="params">(<span name="arg0">arg0: <a href="../AnyRef.html" class="extype" name="scala.AnyRef">AnyRef</a></span>)</span><span class="result">: <a href="../Boolean.html" class="extype" name="scala.Boolean">Boolean</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Equivalent to <code>!(this eq that)</code>.</p><div class="fullcomment"><div class="comment cmt"><p>Equivalent to <code>!(this eq that)</code>.
+</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p><code>true</code> if the argument is not a reference to the receiver object; <code>false</code> otherwise.
+</p></dd></dl><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#notify" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notify():Unit"></a>
+      <a id="notify():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notify</span><span class="params">()</span><span class="result">: <a href="../Unit.html" class="extype" name="scala.Unit">Unit</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Wakes up a single thread that is waiting on the receiver object's monitor.</p><div class="fullcomment"><div class="comment cmt"><p>Wakes up a single thread that is waiting on the receiver object's monitor.
+</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Note</dt><dd><span class="cmt"><p>not specified by SLS as a member of AnyRef
+</p></span></dd></dl></div>
+    </li><li name="scala.AnyRef#notifyAll" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notifyAll():Unit"></a>
+      <a id="notifyAll():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notifyAll</span><span class="params">()</span><span class="result">: <a href="../Unit.html" class="extype" name="scala.Unit">Unit</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Wakes up all threads that are waiting on the receiver object's monitor.</p><div class="fullcomment"><div class="comment cmt"><p>Wakes up all threads that are waiting on the receiver object's monitor.
+</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Note</dt><dd><span class="cmt"><p>not specified by SLS as a member of AnyRef
+</p></span></dd></dl></div>
+    </li><li name="scala.AnyRef#synchronized" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="synchronized[T0](x$1:=&gt;T0):T0"></a>
+      <a id="synchronized[T0](⇒T0):T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">synchronized</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="params">(<span name="arg0">arg0: ⇒ <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>)</span><span class="result">: <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#toString" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toString():String"></a>
+      <a id="toString():String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toString</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Creates a String representation of this object.</p><div class="fullcomment"><div class="comment cmt"><p>Creates a String representation of this object.  The default
+ representation is platform dependent.  On the java platform it
+ is the concatenation of the class name, &quot;@&quot;, and the object's
+ hashcode in hexadecimal.
+</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p>a String representation of the object.
+</p></dd></dl><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → <a href="../Any.html" class="extype" name="scala.Any">Any</a></dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait():Unit"></a>
+      <a id="wait():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">()</span><span class="result">: <a href="../Unit.html" class="extype" name="scala.Unit">Unit</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@<a href="../throws.html" class="extype" name="scala.throws">throws</a></span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long,x$2:Int):Unit"></a>
+      <a id="wait(Long,Int):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <a href="../Long.html" class="extype" name="scala.Long">Long</a></span>, <span name="arg1">arg1: <a href="../Int.html" class="extype" name="scala.Int">Int</a></span>)</span><span class="result">: <a href="../Unit.html" class="extype" name="scala.Unit">Unit</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@<a href="../throws.html" class="extype" name="scala.throws">throws</a></span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long):Unit"></a>
+      <a id="wait(Long):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <a href="../Long.html" class="extype" name="scala.Long">Long</a></span>)</span><span class="result">: <a href="../Unit.html" class="extype" name="scala.Unit">Unit</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@<a href="../throws.html" class="extype" name="scala.throws">throws</a></span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="scala.Serializable">
+              <h3>Inherited from <a href="../Serializable.html" class="extype" name="scala.Serializable">Serializable</a></h3>
+            </div><div class="parent" name="java.io.Serializable">
+              <h3>Inherited from <span class="extype" name="java.io.Serializable">java.io.Serializable</span></h3>
+            </div><div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <a href="../AnyRef.html" class="extype" name="scala.AnyRef">AnyRef</a></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <a href="../Any.html" class="extype" name="scala.Any">Any</a></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">Scala programming documentation. Copyright (c) 2003-2013 <a href="http://www.epfl.ch" target="_top">EPFL</a>, with contributions from <a href="http://typesafe.com" target="_top">Typesafe</a>.</div>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../../lib/template.js"></script><script defer="defer" type="text/javascript" id="modernizr-custom-js" src="../../lib/modernizr.custom.js"></script><script defer="defer" type="text/javascript" id="diagrams-js" src="../../lib/diagrams.js"></script>
+    </body>
+      </html>
